@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Second JS Lesson</title>
+	
+	<link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+	<div class="container">
+		<h1 class="page-header">x-editable</h1>
+		<ul class="list-group">
+			<li class="list-group-item">
+				<strong>Firstname:</strong> <a href="" data-editable="text">John</a>
+				<editable></editable>
+			</li>
+			<li class="list-group-item">
+				<strong>Lastname:</strong> <span data-editable="text">Doe</span>
+			</li>
+			<li class="list-group-item">
+				<strong>Email:</strong> <span data-editable="email">doe@mail.com</span>
+			</li>
+			<li class="list-group-item">
+				<strong>Password:</strong> <span data-editable="password">123456</span>
+			</li>
+			<li class="list-group-item">
+				<strong>Age:</strong> <span data-editable="number"></span>
+			</li>
+		</ul>
+	</div>
+
+	<script src="./js/script.js"></script>
+</body>
+</html>
